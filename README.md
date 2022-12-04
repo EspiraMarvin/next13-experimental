@@ -10,6 +10,22 @@ npm run dev
 yarn dev
 ```
 
+
+```bash
+npx prima init // adds prisma to our project
+```
+
+```bash
+npx prima db push // it does the following:
+   - create our db file
+   - apply prisma schema to our db
+   - generates prisma/client (to help us query our db)
+```
+
+```bash
+npx prima db seed // seed data to our db
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
